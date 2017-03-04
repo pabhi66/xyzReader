@@ -1,0 +1,7 @@
+#Fri Mar 03 20:13:22 EST 2017
+base.0=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a5833103263ad9515908130dfde192370f1efa6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3800cc17fadec5016fec4754cf01b2eedbadd857/classes.dex
+base.1=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3800cc17fadec5016fec4754cf01b2eedbadd857
+file.0=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a5833103263ad9515908130dfde192370f1efa6/classes.dex
