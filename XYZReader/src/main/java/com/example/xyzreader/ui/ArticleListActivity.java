@@ -8,10 +8,12 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.Loader;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.graphics.Palette;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
@@ -23,6 +25,10 @@ import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
 import com.example.xyzreader.data.UpdaterService;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
@@ -35,6 +41,11 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
     private Toolbar mToolbar;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,11 +60,16 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mRecyclerView.setElevation(2);
+        mRecyclerView.setTranslationX(2);
         getLoaderManager().initLoader(0, null, this);
 
         if (savedInstanceState == null) {
             refresh();
         }
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     private void refresh() {
@@ -62,15 +78,25 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
 
     @Override
     protected void onStart() {
-        super.onStart();
+        super.onStart();// ATTENTION: This was auto-generated to implement the App Indexing API.
+// See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
         registerReceiver(mRefreshingReceiver,
                 new IntentFilter(UpdaterService.BROADCAST_ACTION_STATE_CHANGE));
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.start(client, getIndexApiAction());
     }
 
     @Override
     protected void onStop() {
-        super.onStop();
+        super.onStop();// ATTENTION: This was auto-generated to implement the App Indexing API.
+// See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.end(client, getIndexApiAction());
         unregisterReceiver(mRefreshingReceiver);
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.disconnect();
     }
 
     private boolean mIsRefreshing = false;
@@ -96,13 +122,14 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
 
     @Override
     public void onLoadFinished(Loader<Cursor> cursorLoader, Cursor cursor) {
-        Adapter adapter = new Adapter(cursor);
+        Adapter adapter = new Adapter(cursor, this);
         adapter.setHasStableIds(true);
-        mRecyclerView.setAdapter(adapter);
         int columnCount = getResources().getInteger(R.integer.list_column_count);
         StaggeredGridLayoutManager sglm =
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(sglm);
+        mRecyclerView.setAdapter(adapter);
+
     }
 
     @Override
@@ -110,11 +137,29 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
         mRecyclerView.setAdapter(null);
     }
 
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    public Action getIndexApiAction() {
+        Thing object = new Thing.Builder()
+                .setName("ArticleList Page") // TODO: Define a title for the content shown.
+                // TODO: Make sure this auto-generated URL is correct.
+                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+                .build();
+        return new Action.Builder(Action.TYPE_VIEW)
+                .setObject(object)
+                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+                .build();
+    }
+
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
         private Cursor mCursor;
+        private AppCompatActivity activity;
 
-        Adapter(Cursor cursor) {
+        Adapter(Cursor cursor, AppCompatActivity activity) {
             mCursor = cursor;
+            this.activity = activity;
         }
 
         @Override
@@ -131,19 +176,18 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    startActivity(new Intent(Intent.ACTION_VIEW,
-                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));
 
                     Intent intent = new Intent(Intent.ACTION_VIEW, ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition())));
 
-                   // ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(Intent.ACTION_VIEW,)
+                    startActivity(intent);
+
+                    //startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(activity).toBundle());
+
 
                 }
             });
             return vh;
         }
-
-
 
 
         @Override
@@ -157,6 +201,9 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
                             DateUtils.FORMAT_ABBREV_ALL).toString()
                             + " by "
                             + mCursor.getString(ArticleLoader.Query.AUTHOR));
+
+            //int bgColor = palette.getMutedColor(mContext.getResources().getColor(android.R.color.black));
+
             holder.thumbnailView.setImageUrl(
                     mCursor.getString(ArticleLoader.Query.THUMB_URL),
                     ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());

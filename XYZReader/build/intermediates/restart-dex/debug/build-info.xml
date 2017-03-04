@@ -5,50 +5,50 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="146226601915265"
+    timestamp="171010481839835"
     token="-4710284932839561201"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="342" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="603" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
-        location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="144666724780572"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="170151667978478"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/abhi/Downloads/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="146136987766278"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="170288016184153"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
         <artifact
             location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="146226601915265"
+        timestamp="171010481839835"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

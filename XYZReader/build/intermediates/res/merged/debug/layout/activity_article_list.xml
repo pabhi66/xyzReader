@@ -15,7 +15,7 @@
             android:layout_height="511dp"
             android:clipToPadding="false"
             android:scrollbarStyle="outsideOverlay"
-            android:paddingTop="?attr/actionBarSize"
+            android:paddingTop="70dp"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:paddingBottom="28dp" />
@@ -34,7 +34,7 @@
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_gravity="bottom"
             android:elevation="4dp">
 

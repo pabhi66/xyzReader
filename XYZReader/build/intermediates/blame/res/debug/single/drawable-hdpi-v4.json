@@ -36,12 +36,12 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",

@@ -75,6 +75,8 @@ public class ArticleDetailFragment extends Fragment implements
         return fragment;
     }
 
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -174,6 +176,8 @@ public class ArticleDetailFragment extends Fragment implements
         //mRootView.findViewById(R.id.share_fab).setBackgroundColor(color);
         //mRootView.findViewById(R.id.share_fab).setBackgroundTintList(ColorStateList.valueOf(color));
     }
+
+
 
     static float progress(float v, float min, float max) {
         return constrain((v - min) / (max - min), 0, 1);

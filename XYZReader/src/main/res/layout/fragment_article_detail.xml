@@ -2,28 +2,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
     <com.example.xyzreader.ui.ObservableScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
 
             <FrameLayout
                 android:id="@+id/photo_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/photo_placeholder">
+                android:background="#ffffff">
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
                     android:scaleType="fitXY"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:transitionName="@string/photo"
                      />
 
                 <View
@@ -106,7 +110,9 @@
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
         app:borderWidth="0dp"
-        android:contentDescription="@string/action_share" />
+        android:contentDescription="@string/action_share"
+        app:rippleColor="@color/theme_primary"/>
+
 
 
 

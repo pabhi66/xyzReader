@@ -12,12 +12,12 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-v21/white_selectable_item_background_circle.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable-v21/white_selectable_item_background_circle.xml"
-    },
-    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-v21/white_selectable_item_background_circle.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable-v21/white_selectable_item_background_circle.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
