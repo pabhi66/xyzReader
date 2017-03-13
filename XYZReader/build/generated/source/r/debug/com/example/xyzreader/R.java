@@ -25,7 +25,6 @@ public final class R {
         public static final int design_fab_out=0x7f05000d;
         public static final int design_snackbar_in=0x7f05000e;
         public static final int design_snackbar_out=0x7f05000f;
-        public static final int fab_state_list_anim=0x7f050010;
     }
     public static final class animator {
         public static final int design_appbar_state_list_animator=0x7f060000;
@@ -3164,28 +3163,29 @@ containing a value of this type.
         public static final int design_password_eye=0x7f02006f;
         public static final int design_snackbar_background=0x7f020070;
         public static final int empty_detail=0x7f020071;
-        public static final int ic_arrow_back=0x7f020072;
-        public static final int ic_arrow_back_white_48px=0x7f020073;
-        public static final int ic_share=0x7f020074;
-        public static final int logo=0x7f020075;
-        public static final int material_flat=0x7f020076;
-        public static final int navigation_empty_icon=0x7f020077;
-        public static final int notification_action_background=0x7f020078;
-        public static final int notification_bg=0x7f020079;
-        public static final int notification_bg_low=0x7f02007a;
-        public static final int notification_bg_low_normal=0x7f02007b;
-        public static final int notification_bg_low_pressed=0x7f02007c;
-        public static final int notification_bg_normal=0x7f02007d;
-        public static final int notification_bg_normal_pressed=0x7f02007e;
-        public static final int notification_icon_background=0x7f02007f;
-        public static final int notification_template_icon_bg=0x7f020086;
-        public static final int notification_template_icon_low_bg=0x7f020087;
-        public static final int notification_tile_bg=0x7f020080;
-        public static final int notify_panel_notification_icon_bg=0x7f020081;
-        public static final int padded_divider=0x7f020082;
-        public static final int photo_background_protection=0x7f020083;
-        public static final int ripple=0x7f020084;
-        public static final int white_selectable_item_background_circle=0x7f020085;
+        public static final int fab_state_list_anim=0x7f020072;
+        public static final int ic_arrow_back=0x7f020073;
+        public static final int ic_arrow_back_white_48px=0x7f020074;
+        public static final int ic_share=0x7f020075;
+        public static final int logo=0x7f020076;
+        public static final int material_flat=0x7f020077;
+        public static final int navigation_empty_icon=0x7f020078;
+        public static final int notification_action_background=0x7f020079;
+        public static final int notification_bg=0x7f02007a;
+        public static final int notification_bg_low=0x7f02007b;
+        public static final int notification_bg_low_normal=0x7f02007c;
+        public static final int notification_bg_low_pressed=0x7f02007d;
+        public static final int notification_bg_normal=0x7f02007e;
+        public static final int notification_bg_normal_pressed=0x7f02007f;
+        public static final int notification_icon_background=0x7f020080;
+        public static final int notification_template_icon_bg=0x7f020087;
+        public static final int notification_template_icon_low_bg=0x7f020088;
+        public static final int notification_tile_bg=0x7f020081;
+        public static final int notify_panel_notification_icon_bg=0x7f020082;
+        public static final int padded_divider=0x7f020083;
+        public static final int photo_background_protection=0x7f020084;
+        public static final int ripple=0x7f020085;
+        public static final int white_selectable_item_background_circle=0x7f020086;
     }
     public static final class fraction {
         public static final int detail_body_line_spacing_multiplier=0x7f0c0000;

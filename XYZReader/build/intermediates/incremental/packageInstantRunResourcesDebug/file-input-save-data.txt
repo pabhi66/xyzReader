@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 12 19:46:40 EDT 2017
+#Mon Mar 13 11:04:18 EDT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_/res/color-v23/design_tint_password_toggle.xml
@@ -158,7 +158,7 @@
 30.file=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-v21/white_selectable_item_background_circle.xml
 145.set=ANDROID_RESOURCE
 213.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
-82.file=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
+82.file=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_/res/drawable-v21/fab_state_list_anim.xml
 136.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
 265.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
 188.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
@@ -231,7 +231,7 @@
 155.set=ANDROID_RESOURCE
 62.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
 214.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
-83.file=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_/res/anim-v21/fab_state_list_anim.xml
+83.file=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
 137.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_
 12.set=ANDROID_RESOURCE
 266.base=/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/resources-debug.ap_

@@ -167,10 +167,8 @@
 
 <android.support.design.widget.FloatingActionButton
     android:id="@+id/share_fab"
-    app:pressedTranslationZ="12dp"
-    android:stateListAnimator="@anim/fab_state_list_anim"
-    android:background="@drawable/add_fab_background"
-    android:layout_gravity="bottom|end"
+    android:stateListAnimator="@drawable/fab_state_list_anim"
+    android:background="@drawable/ripple"
     android:layout_marginRight="@dimen/fab_margin"
     android:layout_marginBottom="@dimen/fab_margin"
     android:layout_width="56dp"
@@ -180,7 +178,10 @@
     app:borderWidth="0dp"
     app:layout_behavior="com.example.xyzreader.ui.ScrollAwareFAB"
     android:contentDescription="@string/action_share"
-    app:rippleColor="@color/theme_primary" />
+    app:rippleColor="@color/theme_primary"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="32dp"
+    />
 
 
 

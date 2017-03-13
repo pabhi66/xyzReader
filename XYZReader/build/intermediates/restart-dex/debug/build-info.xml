@@ -5,36 +5,49 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="30929343701387"
+    timestamp="2956448696317"
     token="-4710284932839561201"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="380" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="36" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
+        location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="28452335430881"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="1178161735425"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/abhi/Downloads/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="30112287649163"
+        timestamp="1490292442109"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="2956448696317"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"

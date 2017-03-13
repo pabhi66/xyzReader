@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-v21/fab_state_list_anim.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable-v21/fab_state_list_anim.xml"
+    },
+    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-v21/notification_action_background.xml"
     },
