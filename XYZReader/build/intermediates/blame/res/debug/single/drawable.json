@@ -8,16 +8,24 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_ratingbar_material.xml"
     },
     {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/ripple.xml",
@@ -49,7 +57,11 @@
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
@@ -72,10 +84,6 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_text_cursor_material.xml"
     },
@@ -89,7 +97,7 @@
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
@@ -100,16 +108,8 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
@@ -121,7 +121,7 @@
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
@@ -161,7 +161,7 @@
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
@@ -180,6 +180,10 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable/padded_divider.xml"
     },
     {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/ic_arrow_back_white_48px.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable/ic_arrow_back_white_48px.xml"
+    },
+    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/notification_bg.xml"
     },
@@ -192,15 +196,15 @@
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     }
 ]

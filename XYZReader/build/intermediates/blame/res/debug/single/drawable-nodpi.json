@@ -2,5 +2,9 @@
     {
         "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-nodpi/empty_detail.png",
         "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable-nodpi/empty_detail.png"
+    },
+    {
+        "merged": "/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/res/merged/debug/drawable-nodpi/material_flat.png",
+        "source": "/Users/abhi/Downloads/xyzreader/XYZReader/src/main/res/drawable-nodpi/material_flat.png"
     }
 ]

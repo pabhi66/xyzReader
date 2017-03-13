@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.content.Loader;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -18,8 +19,13 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
+import android.transition.Slide;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
@@ -47,6 +53,8 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
      */
     private GoogleApiClient client;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,13 +72,21 @@ public class ArticleListActivity extends AppCompatActivity implements LoaderMana
         mRecyclerView.setTranslationX(2);
         getLoaderManager().initLoader(0, null, this);
 
+       ImageView logo = (ImageView) findViewById(R.id.logo);
+
         if (savedInstanceState == null) {
             refresh();
         }
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        Slide slide = new Slide();
+        slide.setDuration(1000);
+        getWindow().setExitTransition(slide);
     }
+
+
 
     private void refresh() {
         startService(new Intent(this, UpdaterService.class));

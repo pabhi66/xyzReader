@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_7faeb97eec63275b9eedfc70b0de9619f0c24ddf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/abhi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
         jumboMode="true"
         optimize="true"
@@ -25,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="136ee5fcf9a08ae43ff76897981eaf4d3d3c70fa">
+        sha1="1aa7aa6aee4792e2239004486050e2bcdcad5ae4">
         <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a5833103263ad9515908130dfde192370f1efa6/classes.dex" />
     </item>
     <item
@@ -36,6 +45,15 @@
         revision="22.0.1"
         sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
         <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_d26e6236338ea96d83004986a6e0df0b34a6b2d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_2feddda1f114496a9c8bbe4ee69c59b082aed31b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +129,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_d7299f8b5a38f172da2965e8547d887220cc9929/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/abhi/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="true"
         optimize="true"
@@ -138,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_d8dc7207d336889b01ff52976327ee84dfce34fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -147,21 +183,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_128e359a8a6f22d53b2f92eed723d7a235555426/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
         <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_158ce34ab677b20ec3be9f28c951c0516a88a688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_b5db1f6bde173551db5a35f401da256428cf584a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -178,7 +214,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="a1b4aa8f8df8857531e64ab489bd3d4518dfdb3e">
+        sha1="7b2432232671a3da17d1b75ae09e6f0cf3d5eea1">
         <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3800cc17fadec5016fec4754cf01b2eedbadd857/classes.dex" />
     </item>
     <item
@@ -198,24 +234,6 @@
         revision="22.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_f8e903155377066278d591eb09ee1e05c603516a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_44ee54766463a728d831dccf84730485fd3d40db/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_9fcbcb266dfaf15444c9aa80f2e209430f81081f/classes.dex" />
     </item>
 
 </items>

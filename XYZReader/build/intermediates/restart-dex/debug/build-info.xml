@@ -5,50 +5,47 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="171010481839835"
+    timestamp="30929343701387"
     token="-4710284932839561201"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="380" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="36" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="170151667978478"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="28452335430881"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/abhi/Downloads/xyzreader/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="170288016184153"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="171010481839835"
-        verifier="COMPATIBLE" >
+        timestamp="30112287649163"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        timestamp="30929343701387"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/abhi/Downloads/xyzreader/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
